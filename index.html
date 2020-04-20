@@ -2,33 +2,28 @@
 <html>
 <head>
 <style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
+table { font-family: arial, sans-serif; border-collapse: collapse; width: 100%;}
+ th { border: 1px solid #dddddd; text-align: center; padding: 8px; }
+ td { border: 1px solid #dddddd; text-align: left; padding: 8px; }
+ tr:nth-child(even) { background-color: #dddddd; }
+div.static { position: static; top: 50px; width: 70%;border: 3px solid #73AD21; }
+div.fixed1 { position: fixed; top: 65px; bottom: 100; right: 0; width: 28%; border: 3px solid #73AD21; }
 
-th {
-  border: 1px solid #dddddd;
-  text-align: center;
-  padding: 8px;
-}
-
-td {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
 </style>
 </head>
 <body>
-
-<h2>Acompanhe as doações:</h2>
-
+<h2>Acompanhe as doacoes:</h2>
+<div class="fixed1">
+<table>
+  <tr>
+    <th> Valor Total Arrecadado </th>
+  </tr>
+  <tr>
+    <td> <h1> <center> R$ 14.671,76 </center> </h1> </td>
+  </tr>
+</table>
+</div>
+<div class="static">
 <table>
   <tr>
     <th> Doador(a) </th>
@@ -67,9 +62,9 @@ tr:nth-child(even) {
     <td> 19:02:05 </td>
   </tr>
   <tr>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
+    <td> Aissa Hadj Mohamed </td>
+    <td> R$ 500,00 </td>
+    <td> 16/04/2020 </td>
     <td>  </td>
   </tr>
   <tr>
@@ -85,10 +80,10 @@ tr:nth-child(even) {
     <td> 19:13:23 </td>
   </tr>
   <tr>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
+    <td> Márcio Moraes Lopes </td>
+    <td> R$ 50,00 </td>
+    <td> 16/04/2020 </td>
+    <td> 18:57:00 </td>
   </tr>
   <tr>
     <td> Anônimo </td>
@@ -109,22 +104,22 @@ tr:nth-child(even) {
     <td> 21:10:04 </td>
   </tr>
   <tr>
-    <td> Horácio (anônimo) </td>
+    <td> Anônimo </td>
     <td> R$ 300,00 </td>
     <td> 16/04/2020 </td>
     <td>  </td>
   </tr>
   <tr>
-    <td> Fábio Usberti (anônimo) </td>
+    <td> Anônimo </td>
     <td> R$ 200,00 </td>
     <td> 16/04/2020 </td>
-    <td>  </td>
+    <td> 22:32:28 </td>
   </tr>
   <tr>
-    <td> Guido (Anônimo) </td>
+    <td> Anônimo </td>
     <td> R$ 500,00 </td>
     <td> 16/04/2020 </td>
-    <td>  </td>
+    <td> 22:28:34 </td>
   </tr>
   <tr>
     <td> Anônimo </td>
@@ -133,28 +128,28 @@ tr:nth-child(even) {
     <td> 23:39:58 </td>
   </tr>
   <tr>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
+    <td> Anônimo </td>
+    <td> R$ 800,00 </td>
+    <td> 16/04/2020 </td>
+    <td> 19:32:52 </td>
   </tr>
   <tr>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
+    <td> Felipe Domingos da Cunha </td>
+    <td> R$ 400,00 </td>
+    <td> 16/04/2020 </td>
+    <td> 18:54:00 </td>
   </tr>
   <tr>
     <td> Anônimo </td>
     <td> R$ 1.000,00 </td>
     <td> 17/04/2020 </td>
-    <td>  </td>
+    <td> 14:25:42 </td>
   </tr>
   <tr>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
+    <td> Anônimo </td>
+    <td> R$ 350,00 </td>
+    <td> 17/04/2020 </td>
+    <td> 14:10:37 </td>
   </tr>
   <tr>
     <td> Diego Oliveira Rodrigues </td>
@@ -163,10 +158,10 @@ tr:nth-child(even) {
     <td> 03:29:00 </td>
   </tr>
   <tr>
-    <td> Anônimo ECX </td>
+    <td> Anônimo </td>
     <td> R$ 1.000,00 </td>
     <td> 17/04/2020 </td>
-    <td>  </td>
+    <td> 07:02:00 </td>
   </tr>
   <tr>
     <td> Anônimo </td>
@@ -181,10 +176,10 @@ tr:nth-child(even) {
     <td> 10:02:39 </td>
   </tr>
   <tr>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
+    <td> Anônimo </td>
+    <td> R$ 150,00 </td>
+    <td> 17/04/2020 </td>
+    <td> 14:21:43 </td>
   </tr>
   <tr>
     <td> GPT anonimo </td>
@@ -205,9 +200,33 @@ tr:nth-child(even) {
     <td>  </td>
   </tr>
   <tr>
-    <td> vera </td>
+    <td> Vera Lucia Castelhano </td>
     <td> R$ 100,00 </td>
     <td> 17/04/0200 </td>
+    <td> 14:34:13 </td>
+  </tr>
+  <tr>
+    <td>  </td>
+    <td>  </td>
+    <td>  </td>
+    <td>  </td>
+  </tr>
+  <tr>
+    <td> Eliane </td>
+    <td> R$ 200,00 </td>
+    <td> 19/04/2020 </td>
+    <td> 13:26:39 </td>
+  </tr>
+  <tr>
+    <td>  </td>
+    <td>  </td>
+    <td>  </td>
+    <td>  </td>
+  </tr>
+  <tr>
+    <td>  </td>
+    <td>  </td>
+    <td>  </td>
     <td>  </td>
   </tr>
   <tr>
@@ -217,13 +236,31 @@ tr:nth-child(even) {
     <td>  </td>
   </tr>
   <tr>
-    <td> Fernando Santos </td>
+    <td>  </td>
+    <td>  </td>
+    <td>  </td>
+    <td>  </td>
+  </tr>
+  <tr>
+    <td> Fernando Santos (Canadá) </td>
     <td> R$ 200,00 </td>
     <td> 20/04/2020 </td>
     <td> 13:04:14 </td>
   </tr>
+  <tr>
+    <td>  </td>
+    <td>  </td>
+    <td>  </td>
+    <td>  </td>
+  </tr>
+  <tr>
+    <td> Michael e Biljana (USA) </td>
+    <td> R$ 2.231,76 </td>
+    <td> 20/04/2020 </td>
+    <td> 13:54:00 </td>
+  </tr>
 </table>
+</div>
 
 </body>
 </html>
-
