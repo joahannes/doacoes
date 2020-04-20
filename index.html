@@ -6,12 +6,13 @@ table { font-family: arial, sans-serif; border-collapse: collapse; width: 100%;}
  th { border: 1px solid black; text-align: center; padding: 8px; }
  td { border: 1px solid black; text-align: left; padding: 8px; }
  tr:nth-child(even) { background-color: #dddddd; }
-div.static { position: static; top: 50px; width: 72%;border: 3px solid none; }
-div.fixed1 { position: fixed; top: 20px; bottom: 100; right: 0; width: 25%; border: 3px solid none; }
-div.fixed2 { position: fixed; top: 170px; bottom: 100; right: 0; width: 25%; border: 3px solid none; }
-div.fixed3 { position: fixed; top: 320px; bottom: 100; right: 0; width: 25%; border: 3px solid none; }
-div.fixed4 { position: fixed; top: 470px; bottom: 100; right: 0; width: 25%; border: 3px solid none; }
-div.fixed5 { position: fixed; top: 560px; bottom: 100; right: 0; width: 25%; border: 3px solid none; }
+div.cima { position: static; width: 50%; border: 3px solid none; }
+div.static { position: static; width: 100%; border: 3px solid none; }
+div.listagem { position: static; width: 100%; border: 3px solid none; }
+div.fixed1 { position: absolute; top: 20px; bottom: 100px; left: 280px; width: 25%; border: 3px solid none; }
+div.fixed2 { position: absolute; top: 20px; bottom: 100px; left: 780px; width: 25%; border: 3px solid none; }
+div.fixed3 { position: absolute; top: 170px; bottom: 100px; left: 280px; width: 25%; border: 3px solid none; }
+div.fixed4 { position: absolute; top: 170px; bottom: 100px; left: 780px; width: 25%; border: 3px solid none; }
 
 </style>
 <title> Doações 2020 </title>
@@ -33,13 +34,15 @@ div.fixed5 { position: fixed; top: 560px; bottom: 100; right: 0; width: 25%; bor
 </ul>
 </ul>
 <h2>Acompanhe as doações:</h2>
+Atualizado em 20/04/2020, às 17:37:12
+<div class="cima">
 <div class="fixed1">
 <table>
   <tr>
     <th> Valor Total Arrecadado </th>
   </tr>
   <tr>
-    <td> <h1> <center> R$ 18.761,76 </center> </h1> </td>
+    <td> <h2> <center> R$ 25.961,76 </center> </h2> </td>
   </tr>
 </table>
 </div>
@@ -49,7 +52,7 @@ div.fixed5 { position: fixed; top: 560px; bottom: 100; right: 0; width: 25%; bor
     <th> Valor médio da Cesta: </th>
   </tr>
   <tr>
-    <td> <h1> <center> R$ 150,00 </center> </h1> </td>
+    <td> <h2> <center> R$ 150,00 </center> </h2> </td>
   </tr>
 </table>
 </div>
@@ -59,7 +62,7 @@ div.fixed5 { position: fixed; top: 560px; bottom: 100; right: 0; width: 25%; bor
     <th> Nº Cestas Arrecadas </th>
   </tr>
   <tr>
-    <td> <h1> <center> 125 </center> </h1> </td>
+    <td> <h2> <center> 173 </center> </h2> </td>
   </tr>
 </table>
 </div>
@@ -69,11 +72,13 @@ div.fixed5 { position: fixed; top: 560px; bottom: 100; right: 0; width: 25%; bor
     <th> Nº Cestas Entregues </th>
   </tr>
   <tr>
-    <td> <h1> <center>  </center> </h1> </td>
+    <td> <h2> <center> 0 </center> </h2> </td>
   </tr>
 </table>
 </div>
+</div>
 <div class="static">
+<div class="listagem">
 <table>
   <tr>
     <th> Doador(a) </th>
@@ -174,7 +179,7 @@ div.fixed5 { position: fixed; top: 560px; bottom: 100; right: 0; width: 25%; bor
     <td style="text-align:center">  </td>
   </tr>
   <tr>
-    <td> Anônimo </td>
+    <td> Ketty de Rezende </td>
     <td style="text-align:center"> R$ 100,00 </td>
     <td style="text-align:center"> 16/04/2020 </td>
     <td style="text-align:center"> 21:10:04 </td>
@@ -218,9 +223,9 @@ div.fixed5 { position: fixed; top: 560px; bottom: 100; right: 0; width: 25%; bor
   <tr>
     <td> Anônimo </td>
     <td style="text-align:center"> R$ 250,00 </td>
-    <td style="text-align:center">  </td>
-    <td style="text-align:center">  </td>
-    <td style="text-align:center">  </td>
+    <td style="text-align:center"> 16/04/2020 </td>
+    <td style="text-align:center"> 19:29:53 </td>
+    <td style="text-align:center"> C.31F.FD6.4A6.63C.32A </td>
   </tr>
   <tr>
     <td> Matheus Ferraroni </td>
@@ -272,9 +277,23 @@ div.fixed5 { position: fixed; top: 560px; bottom: 100; right: 0; width: 25%; bor
     <td style="text-align:center"> 5e991504-6085-4bc8-a18b-148c94bc857 </td>
   </tr>
   <tr>
-    <td>  </td>
+    <td> Cesar Augusto </td>
+    <td style="text-align:center"> R$ 100,00 </td>
+    <td style="text-align:center"> 16/04/2020 </td>
     <td style="text-align:center">  </td>
     <td style="text-align:center">  </td>
+  </tr>
+  <tr>
+    <td> Daniele Santin </td>
+    <td style="text-align:center"> R$ 70,00 </td>
+    <td style="text-align:center"> 16/04/2020 </td>
+    <td style="text-align:center"> 21:55:01 </td>
+    <td style="text-align:center">  </td>
+  </tr>
+  <tr>
+    <td> Anônimo </td>
+    <td style="text-align:center"> R$ 150,00 </td>
+    <td style="text-align:center"> 16/04/2020 </td>
     <td style="text-align:center">  </td>
     <td style="text-align:center">  </td>
   </tr>
@@ -363,7 +382,140 @@ div.fixed5 { position: fixed; top: 560px; bottom: 100; right: 0; width: 25%; bor
     <td style="text-align:center"> 5e9a4954-1977-4dab-b360-3c2548e1e7e3 </td>
   </tr>
   <tr>
+    <td> Bruno Kimura </td>
+    <td style="text-align:center"> R$ 150,00 </td>
+    <td style="text-align:center"> 17/04/2020 </td>
+    <td style="text-align:center"> 12:19:12 </td>
+    <td style="text-align:center">  </td>
+  </tr>
+  <tr>
     <td> Anônimo </td>
+    <td style="text-align:center"> R$ 200,00 </td>
+    <td style="text-align:center"> 17/04/2020 </td>
+    <td style="text-align:center"> 14:00:45 </td>
+    <td style="text-align:center">  </td>
+  </tr>
+  <tr>
+    <td> Silvia Magri </td>
+    <td style="text-align:center"> R$ 200,00 </td>
+    <td style="text-align:center"> 17/04/2020 </td>
+    <td style="text-align:center">  </td>
+    <td style="text-align:center">  </td>
+  </tr>
+  <tr>
+    <td> Pedro Libório </td>
+    <td style="text-align:center"> R$ 50,00 </td>
+    <td style="text-align:center"> 17/04/2020 </td>
+    <td style="text-align:center">  </td>
+    <td style="text-align:center">  </td>
+  </tr>
+  <tr>
+    <td> Patricia Maria </td>
+    <td style="text-align:center"> R$ 200,00 </td>
+    <td style="text-align:center"> 17/04/2020 </td>
+    <td style="text-align:center">  </td>
+    <td style="text-align:center">  </td>
+  </tr>
+  <tr>
+    <td> Evely Boruch </td>
+    <td style="text-align:center"> R$ 350,00 </td>
+    <td style="text-align:center"> 17/04/2020 </td>
+    <td style="text-align:center">  </td>
+    <td style="text-align:center">  </td>
+  </tr>
+  <tr>
+    <td> Luiz </td>
+    <td style="text-align:center"> R$ 100,00 </td>
+    <td style="text-align:center"> 17/04/2020 </td>
+    <td style="text-align:center">  </td>
+    <td style="text-align:center">  </td>
+  </tr>
+  <tr>
+    <td> Denis Rosario </td>
+    <td style="text-align:center"> R$ 200,00 </td>
+    <td style="text-align:center"> 17/04/2020 </td>
+    <td style="text-align:center">  </td>
+    <td style="text-align:center">  </td>
+  </tr>
+  <tr>
+    <td> Rafaela Fabian </td>
+    <td style="text-align:center"> R$ 150,00 </td>
+    <td style="text-align:center"> 17/04/2020 </td>
+    <td style="text-align:center">  </td>
+    <td style="text-align:center">  </td>
+  </tr>
+  <tr>
+    <td> Anônimo </td>
+    <td style="text-align:center"> R$ 180,00 </td>
+    <td style="text-align:center"> 17/04/2020 </td>
+    <td style="text-align:center">  </td>
+    <td style="text-align:center">  </td>
+  </tr>
+  <tr>
+    <td> Anônimo </td>
+    <td style="text-align:center"> R$ 450,00 </td>
+    <td style="text-align:center"> 17/04/2020 </td>
+    <td style="text-align:center">  </td>
+    <td style="text-align:center">  </td>
+  </tr>
+  <tr>
+    <td> Anônimo </td>
+    <td style="text-align:center"> R$ 500,00 </td>
+    <td style="text-align:center"> 17/04/2020 </td>
+    <td style="text-align:center">  </td>
+    <td style="text-align:center">  </td>
+  </tr>
+  <tr>
+    <td> Anônimo </td>
+    <td style="text-align:center"> R$ 500,00 </td>
+    <td style="text-align:center"> 17/04/2020 </td>
+    <td style="text-align:center">  </td>
+    <td style="text-align:center">  </td>
+  </tr>
+  <tr>
+    <td> Marcelo Antonio </td>
+    <td style="text-align:center"> R$ 100,00 </td>
+    <td style="text-align:center"> 17/04/2020 </td>
+    <td style="text-align:center">  </td>
+    <td style="text-align:center">  </td>
+  </tr>
+  <tr>
+    <td> Edite Kazue </td>
+    <td style="text-align:center"> R$ 100,00 </td>
+    <td style="text-align:center"> 17/04/2020 </td>
+    <td style="text-align:center">  </td>
+    <td style="text-align:center">  </td>
+  </tr>
+  <tr>
+    <td> Eduardo Mucelli (França) </td>
+    <td style="text-align:center"> R$ 800,00 </td>
+    <td style="text-align:center"> 17/04/2020 </td>
+    <td style="text-align:center">  </td>
+    <td style="text-align:center">  </td>
+  </tr>
+  <tr>
+    <td> Eduardo Coelho </td>
+    <td style="text-align:center"> R$ 80,00 </td>
+    <td style="text-align:center"> 17/04/2020 </td>
+    <td style="text-align:center">  </td>
+    <td style="text-align:center">  </td>
+  </tr>
+  <tr>
+    <td> Anônimo </td>
+    <td style="text-align:center"> R$ 400,00 </td>
+    <td style="text-align:center"> 17/04/2020 </td>
+    <td style="text-align:center">  </td>
+    <td style="text-align:center">  </td>
+  </tr>
+  <tr>
+    <td> Fernanda Sumika </td>
+    <td style="text-align:center"> R$ 500,00 </td>
+    <td style="text-align:center"> 17/04/2020 </td>
+    <td style="text-align:center">  </td>
+    <td style="text-align:center">  </td>
+  </tr>
+  <tr>
+    <td> Eliane Martins </td>
     <td style="text-align:center"> R$ 200,00 </td>
     <td style="text-align:center"> 19/04/2020 </td>
     <td style="text-align:center"> 13:26:39 </td>
@@ -377,16 +529,37 @@ div.fixed5 { position: fixed; top: 560px; bottom: 100; right: 0; width: 25%; bor
     <td style="text-align:center"> 5e9cf1ac-8fde-4fb7-abd0-2246f9ffa24 </td>
   </tr>
   <tr>
-    <td>  </td>
-    <td style="text-align:center">  </td>
-    <td style="text-align:center">  </td>
+    <td> Thiago Henrique  </td>
+    <td style="text-align:center"> R$ 100,00 </td>
+    <td style="text-align:center"> 19/04/2020 </td>
     <td style="text-align:center">  </td>
     <td style="text-align:center">  </td>
   </tr>
   <tr>
-    <td>  </td>
+    <td> Anônimo </td>
+    <td style="text-align:center"> 200 </td>
+    <td style="text-align:center"> 19/04/2020 </td>
     <td style="text-align:center">  </td>
     <td style="text-align:center">  </td>
+  </tr>
+  <tr>
+    <td> Grazielle Cris </td>
+    <td style="text-align:center"> 450 </td>
+    <td style="text-align:center"> 20/04/2020 </td>
+    <td style="text-align:center">  </td>
+    <td style="text-align:center">  </td>
+  </tr>
+  <tr>
+    <td> Anônimo </td>
+    <td style="text-align:center"> 500 </td>
+    <td style="text-align:center"> 20/04/2020 </td>
+    <td style="text-align:center">  </td>
+    <td style="text-align:center">  </td>
+  </tr>
+  <tr>
+    <td> Anônimo </td>
+    <td style="text-align:center"> R$ 100,00 </td>
+    <td style="text-align:center"> 20/04/2020 </td>
     <td style="text-align:center">  </td>
     <td style="text-align:center">  </td>
   </tr>
@@ -405,9 +578,9 @@ div.fixed5 { position: fixed; top: 560px; bottom: 100; right: 0; width: 25%; bor
     <td style="text-align:center"> UK247C9NZJE8LH6U </td>
   </tr>
   <tr>
-    <td>  </td>
-    <td style="text-align:center">  </td>
-    <td style="text-align:center">  </td>
+    <td> João Guilherme </td>
+    <td style="text-align:center"> R$ 320,00 </td>
+    <td style="text-align:center"> 20/04/2020 </td>
     <td style="text-align:center">  </td>
     <td style="text-align:center">  </td>
   </tr>
@@ -420,12 +593,6 @@ div.fixed5 { position: fixed; top: 560px; bottom: 100; right: 0; width: 25%; bor
   </tr>
 </table>
 </div>
-<div class="fixed5">
-<table>
-  <tr>
-    <td style="text-align:center"> Atualizado em 20/04/2020, às 16:58:09. </td>
-  </tr>
-</table>
 </div>
 
 </body>
